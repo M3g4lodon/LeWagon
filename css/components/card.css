@@ -1,0 +1,64 @@
+.card {
+    background-color: #0F0F23;
+    box-shadow: 3px 3px 15px black;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    color: white;
+    margin: 40px;
+    padding: 20px;
+
+}
+
+.card img {
+    height: 200px;
+    border-radius: 4px;
+}
+
+.card h3 {
+    text-shadow: 1px 1px red;
+}
+
+.card .quote {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.image-alumni {
+    height: 200px;
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    vertical-align: text-bottom;
+    width: 100%;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.image-alumni .text-hovering {
+    display: none;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+
+}
+
+#elliot {
+    background-image: url(../../images/elliot-mr_robot.jpeg);
+}
+
+#hackerman {
+    background-image: url(../../images/hackerman.jpg);
+}
+
+#neo {
+    background-image: url(../../images/matrix.jpg);
+}
+
+
+
+.image-alumni:hover .text-hovering {
+    display: block;
+}

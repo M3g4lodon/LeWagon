@@ -1,0 +1,17 @@
+.navbar li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    position: sticky;
+    width: calc(100% - 40px);
+    background-color: black;
+    z-index: 1;
+    box-shadow: 3px 3px 0 white;
+    height: 60px;
+}

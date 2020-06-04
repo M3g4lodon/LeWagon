@@ -1,0 +1,43 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1)), url("../../images/background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    padding: 100px 0;
+    box-shadow: 3px 3px black;
+    position: relative;
+}
+
+.banner h1 {
+    text-shadow: 3px 3px blue;
+    color: white;
+}
+
+.banner h2 {
+    color: white;
+}
+
+.banner .reference {
+    text-shadow: 3px 3px blue;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.text-blinking {
+  animation: blinker 1s linear infinite;
+  color: #0f0;
+  font-size: 28px;
+  font-weight: light;
+  position: relative;
+  padding-top: 250px;
+  text-shadow: 1px 1px #1AAD18;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}

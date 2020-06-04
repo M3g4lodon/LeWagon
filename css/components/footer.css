@@ -1,0 +1,27 @@
+.footer {
+    margin: 0px;
+    height: 300px;
+    background-color: rgb(15, 15, 35);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+    z-index: 1;
+    font-weight: bolder;
+    text-shadow: 3px 3px green;
+    font-size: 28px;
+    position: relative;
+    margin: 0;
+
+}
+
+.footer canvas {
+    z-index: 0 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
